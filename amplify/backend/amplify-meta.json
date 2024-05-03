@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ampauthdev-ampauthdev-102659-authRole",
+      "UnauthRoleArn": "arn:aws:iam::583011307491:role/amplify-ampauthdev-ampauthdev-102659-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::583011307491:role/amplify-ampauthdev-ampauthdev-102659-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ampauthdev-ampauthdev-102659-deployment",
+      "UnauthRoleName": "amplify-ampauthdev-ampauthdev-102659-unauthRole",
+      "StackName": "amplify-ampauthdev-ampauthdev-102659",
+      "StackId": "arn:aws:cloudformation:us-east-1:583011307491:stack/amplify-ampauthdev-ampauthdev-102659/4dc19490-02ab-11ef-8a11-120a4fbab965",
+      "AmplifyAppId": "d2oapcy711jhp2"
+    }
+  },
+  "auth": {
+    "ampauthdevd502a38e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-ampauthdev-ampauthdev-102659-deployment/amplify-cfn-templates/auth/ampauthdevd502a38e-cloudformation-template.json",
+        "logicalId": "authampauthdevd502a38e"
+      },
+      "lastPushTimeStamp": "2024-04-25T02:30:19.645Z",
+      "output": {
+        "UserPoolId": "us-east-1_l9QzmdomW",
+        "AppClientIDWeb": "4mou438gv3ak7bm50s99v5qprq",
+        "AppClientID": "6mhjl6225li9ahdpl5jg9tusq6",
+        "IdentityPoolId": "us-east-1:1a75064a-7647-4849-b371-385c015943e0",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:583011307491:userpool/us-east-1_l9QzmdomW",
+        "IdentityPoolName": "ampauthdevd502a38e_identitypool_d502a38e__ampauthdev",
+        "UserPoolName": "ampauthdevd502a38e_userpool_d502a38e"
+      },
+      "lastPushDirHash": "FKdSqxVx8fn/I5cPrIVf9xMeVW0="
+    }
+  }
+}

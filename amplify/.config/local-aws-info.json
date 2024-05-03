@@ -1,0 +1,7 @@
+{
+  "ampauthdev": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "/Users/tommylin/.amplify/awscloudformation/1O58t0BlHs"
+  }
+}
